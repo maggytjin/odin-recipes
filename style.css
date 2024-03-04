@@ -1,0 +1,70 @@
+/* Color palette from: 
+https://www.canva.com/colors/color-palettes/emerald-entrance/ */
+
+:root {
+    --color1: #B68D40;
+    --color2: #F4EBD0;
+    --color3: #122620;
+    --color4: #D6AD60;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+body {
+    background: var(--color1);
+    margin: 0;
+}
+
+a:link, a:visited, a:active {
+    color: var(--color2);
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+button {
+    background-color: var(--color3);
+    padding: 10px;
+    border: 1px solid var(--color3);
+}
+.bold {
+    font-weight: bold;
+}
+
+h1 {
+    color: var(--color2);
+    text-align: center;
+    padding-bottom: 1em;
+}
+
+.nav {
+    display: flex;
+    margin-left: 0;
+    list-style: none;
+}
+.nav a {
+    padding: 20px;
+    background-color: var(--color3);
+    color: var(--color2);
+    text-decoration: none;
+}
+
+.home-button {
+    display: block;
+    margin: 20px auto;
+}
+.middle {
+    background-color: var(--color4);
+    width: 900px;
+    margin: 0 auto;
+}
+.food-img {
+    width: 700px;
+    height: 500px;
+    object-fit: cover;
+    display: block;
+    margin: 0 auto;
+    padding-top: 30px;
+}
