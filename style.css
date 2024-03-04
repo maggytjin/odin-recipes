@@ -36,7 +36,7 @@ button {
 h1 {
     color: var(--color2);
     text-align: center;
-    padding-bottom: 1em;
+    padding-bottom: 0.7em;
 }
 
 .nav {
@@ -59,6 +59,7 @@ h1 {
     background-color: var(--color4);
     width: 900px;
     margin: 0 auto;
+    padding: 30px 80px;
 }
 .food-img {
     width: 700px;
@@ -66,5 +67,4 @@ h1 {
     object-fit: cover;
     display: block;
     margin: 0 auto;
-    padding-top: 30px;
 }
