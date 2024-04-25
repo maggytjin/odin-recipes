@@ -68,3 +68,16 @@ h1 {
     display: block;
     margin: 0 auto;
 }
+ul, ol {
+    line-height: 1.5;
+}
+#random-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: white;
+    color: black;
+    border: none;
+    margin-top: 50px;
+    margin-left: 100px;
+}
