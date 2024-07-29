@@ -87,10 +87,11 @@ ul, ol {
 #random_section {
     height: 100px;
 }
-#random-btn {
-    background: white;
-    color: black;
+#random_button {
+    background: brown;
+    color: white;
     border: none;
+    padding: 20px;
 }
 #recipes_section {
     border: 1px solid black;
