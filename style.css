@@ -44,13 +44,17 @@ h1 {
 }
 
 .nav {
+    width: 1200px;
     display: flex;
-    margin-left: 0;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: space-between;
+    gap: 40px;
     list-style: none;
-    padding-left: 0;
 }
 .nav a {
-    padding: 20px;
+    padding: 15px;
     background-color: var(--color3);
     color: var(--color2);
     text-decoration: none;
